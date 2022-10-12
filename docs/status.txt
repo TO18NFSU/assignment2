@@ -1,0 +1,16 @@
+$ git status
+On branch master
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/assignment2.1.iml
+        new file:   .idea/modules.xml
+        new file:   .idea/vcs.xml
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
