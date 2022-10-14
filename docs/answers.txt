@@ -1,0 +1,74 @@
+GitLab Tutorials: 10/11/22
+GitHub account setup: 10/11/22
+
+1: 
+
+
+2:
+    There has been in total 10 commits (including mines)
+
+    Admin@LAPTOP-NBAQ3CFC MINGW64 ~/Documents/GitHub/assignment2.1 (master)
+    $ git log --oneline | wc -l
+    10
+
+
+3:
+    Admin@LAPTOP-NBAQ3CFC MINGW64 ~/Documents/GitHub/assignment2.1 (master)
+    $ git log -1 --pretty="format:%ci" README.md
+
+    2022-10-11 23:49:45 -0500
+
+
+4:
+    Reason 1: Allows multiple people to work in a project.
+    Reason 2: Saves the program which can be accessed easily.
+
+5:
+    `git log` shows the history of commits in an order.
+    While `git status` shows which files are, and aren't part of the staging
+    phase, so that when there is a commit, it takes into account the changes
+    on those files (those that are in the staging phase), and it wont take 
+    into account those files that aren't part of the stagging phase
+
+6:  
+    $git log Vehicle.h
+
+7:
+    $git log --all --grep='file'
+
+8:  
+    I: Inheritance help to derive children classes from parent classes. The hierarchy of classes make it easier to
+        share attributes and functions.
+
+    II: Polymorphism allow to share one single method among different classes which each of them have their own outcome
+        depending on the specifications.
+
+    III: Encapsulation is joining data and methods (functions) that work on 
+         on that data within one unit.
+
+9:  
+    The Dictator and Lieutenants Worfklow works on the basis that everyone
+    pulls from the main repo, but to push it goes up through the hierarchy,
+    first from the individuals, to the lieutenants, then from the lieutenants
+    to the Dictator and then the dictator pushes to the main repo. While the
+    Integration Manager workflow is a workflow in which every developer has 
+    it/their own public repo which is a fork of the blessed repository, then
+    the integration manager is charged with integrating all of the repos by
+    the developers, and then he pushes to the blessed repository.
+
+    The main difference is that the Dictator and Lieutenants have to pass 
+    through the hierarch in order to push the blessed repo, while the
+    integration manager is the only one with the task of gathering ALL the code
+    and integrating in so that it's usable and then push it to the blessed repo
+
+10:
+    100 developers would be better of with Dictator Lieutenant (D&L) Workflow since
+    with the Centralized. In the Centralized Workflow everyone must always 
+    have the most current version of the repo in order to push, and with 
+    there being 100 developers it will be bound to have a lot of issues, 
+    and overall very time consuming. While on the Dictator Lieutenant, they
+    only worry of their own team code, and maybe even only on their own code, 
+    while their lieutenants are the one that are worried of the working of it's
+    team code, so that at the end the Dictator is the one that is incharge of
+    uniting the code to make the software complete and so push a new version of
+    it.
